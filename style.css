@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  cursor: default;
+}
+
+#nav-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 12px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#header-img {
+  position: relative;
+  top: 2px;
+}
+
+.nav-link {
+  cursor: pointer;
+}
