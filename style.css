@@ -26,3 +26,48 @@
 .nav-link {
   cursor: pointer;
 }
+
+#company-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.about-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 104px;
+  margin: auto;
+  width: 90%;
+  height: auto;
+  text-align: justify;
+  font-size: 18px;
+  /* border: 1px solid black; */
+}
+
+#form {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 376px;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+#email {
+  padding-left: 4px;
+  padding-bottom: 1px;
+  width: 220px;
+  height: 30px;
+  font-size: 14px;
+}
