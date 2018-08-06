@@ -108,7 +108,7 @@ body {
   border: 1px solid black;
 }
 
-#product-title {
+#apparel-title {
   position: absolute;
   left: 0;
   right: 0;
@@ -118,4 +118,66 @@ body {
   height: auto;
   text-align: center;
   /* border: 1px solid black; */
+}
+
+#product-1-container {
+  position: absolute;
+  left: -350px;
+  right: 0;
+  top: 1150px;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  background-color: rgba(0,0,0, 0.9);
+  cursor: pointer;
+}
+
+#male-model {
+  position: absolute;
+  left: -54px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 315px;
+  height: 210px;
+  cursor: pointer;
+
+  transition: all .4s ease-in-out;
+}
+
+#male-model:hover {
+  transform: scale(1.5);
+  bottom: 53px;
+}
+
+#product-2-container {
+  position: absolute;
+  left: 350px;
+  right: 0;
+  top: 1150px;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  background-color: rgba(0,0,0, 0.9);
+  cursor: pointer;
+}
+
+#female-model {
+  position: absolute;
+  left: -4px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 315px;
+  height: 210px;
+  cursor: pointer;
+
+  transition: all .4s ease-in-out;
+}
+
+#female-model:hover {
+  transform: scale(1.5);
+  bottom: 53px;
 }
