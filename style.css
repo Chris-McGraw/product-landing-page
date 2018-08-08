@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 1500px;
+  height: 1750px;
 }
 
 #nav-bar {
@@ -68,7 +68,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  top: 430px;
+  top: 450px;
   margin: auto;
   width: 80%;
   height: auto;
@@ -110,14 +110,20 @@ body {
   width: 80%;
   height: 500px;
   text-align: center;
-  border: 1px solid black;
+
+  /* border: 1px solid black; */
+}
+
+#video {
+  width: 100%;
+  height: 100%;
 }
 
 #apparel-title {
   position: absolute;
   left: 0;
   right: 0;
-  top: 1110px;
+  top: 1130px;
   margin: auto;
   width: 80%;
   height: auto;
@@ -129,7 +135,7 @@ body {
   position: absolute;
   left: -650px;
   right: 0;
-  top: 1200px;
+  top: 1220px;
   margin: auto;
   width: 250px;
   height: 250px;
@@ -160,7 +166,7 @@ body {
   position: absolute;
   left: 0px;
   right: 0;
-  top: 1200px;
+  top: 1220px;
   margin: auto;
   width: 250px;
   height: 250px;
@@ -191,7 +197,7 @@ body {
   position: absolute;
   left: 650px;
   right: 0;
-  top: 1200px;
+  top: 1220px;
   margin: auto;
   width: 250px;
   height: 250px;
