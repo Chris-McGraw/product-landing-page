@@ -39,6 +39,11 @@ body {
   cursor: pointer;
 }
 
+#shortcut-media {
+  position: relative;
+  top: 10px;
+}
+
 #company-title {
   position: absolute;
   left: 0;
