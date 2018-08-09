@@ -39,6 +39,11 @@ body {
   cursor: pointer;
 }
 
+#shortcut-media {
+  position: relative;
+  top: 10px;
+}
+
 #company-title {
   position: absolute;
   left: 0;
@@ -152,6 +157,20 @@ body {
   cursor: pointer;
 }
 
+#product-1-title {
+  position: absolute;
+  left: -650px;
+  right: 0;
+  top: 1525px;
+  margin: auto;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+
+  /* border: 1px solid black; */
+}
+
 #male-model {
   position: absolute;
   left: -54px;
@@ -183,6 +202,20 @@ body {
   cursor: pointer;
 }
 
+#product-2-title {
+  position: absolute;
+  left: 0px;
+  right: 0;
+  top: 1525px;
+  margin: auto;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+
+  /* border: 1px solid black; */
+}
+
 #female-model-2 {
   position: absolute;
   left: -34px;
@@ -212,6 +245,20 @@ body {
   text-align: center;
   background-color: rgba(0,0,0, 0.9);
   cursor: pointer;
+}
+
+#product-3-title {
+  position: absolute;
+  left: 650px;
+  right: 0;
+  top: 1525px;
+  margin: auto;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+
+  /* border: 1px solid black; */
 }
 
 #female-model {
