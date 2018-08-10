@@ -8,6 +8,12 @@
 
 body {
   height: 1750px;
+
+  background-color: #FDFDFD;
+}
+
+a {
+  text-decoration: none;
 }
 
 #nav-bar {
@@ -277,4 +283,66 @@ body {
 #female-model:hover {
   transform: scale(1.5);
   bottom: 53px;
+}
+
+
+/* ----- FOOTER BEGINS BELOW ----- */
+
+#footer {
+  position: absolute;
+  top: 1650px;
+
+  left: 0;
+  right: 0;
+
+  /* width: 80%; */
+
+  width: auto;
+
+  height: 100px;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: black;
+}
+
+.footer-icon {
+  color: #fbf790;
+  link-style: none;
+  cursor: pointer;
+}
+
+.footer-icon-hovered {
+  opacity: 0.75;
+}
+
+.footer-icon:active{
+  opacity: 0.75;
+}
+
+.footer-text-top {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  color: #fbf790;
+}
+
+.footer-text-bottom {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  color: #fbf790;
+}
+
+.social-media-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: center;
 }
