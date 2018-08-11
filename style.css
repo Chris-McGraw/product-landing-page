@@ -8,7 +8,6 @@
 
 body {
   height: 1750px;
-
   background-color: #FDFDFD;
 }
 
@@ -40,15 +39,11 @@ a {
   position: relative;
   top: 55px;
   right: -40%;
-
   margin-right: 10px;
-
-  color: #fbf790;
+  color: #fcf798;
   text-decoration: none;
-
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-
   cursor: pointer;
 }
 
@@ -113,10 +108,8 @@ a {
   height: 34px;
   color: white;
   background-color: black;
-
   font-size: 14px;
   font-family: "Roboto", sans-serif;
-
   border-radius: 10px;
   cursor: pointer;
 }
@@ -309,14 +302,9 @@ a {
 #footer {
   position: absolute;
   top: 1650px;
-
   left: 0;
   right: 0;
-
-  /* width: 80%; */
-
   width: auto;
-
   height: 100px;
   margin: auto;
   margin-top: 30px;
@@ -326,7 +314,7 @@ a {
 }
 
 .footer-icon {
-  color: #fbf790;
+  color: #fcf798;
   link-style: none;
   cursor: pointer;
 }
@@ -343,24 +331,18 @@ a {
   margin: auto;
   padding: 0;
   text-align: center;
-
-  font-family: sans-serif;
   font-family: "Roboto", sans-serif;
-
   font-size: 0.9em;
-  color: #fbf790;
+  color: #fcf798;
 }
 
 .footer-text-bottom {
   margin: auto;
   padding: 0;
   text-align: center;
-
-  font-family: sans-serif;
   font-family: "Roboto", sans-serif;
-
   font-size: 0.9em;
-  color: #fbf790;
+  color: #fcf798;
 }
 
 .social-media-container {
