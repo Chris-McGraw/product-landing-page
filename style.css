@@ -55,6 +55,26 @@ a {
   top: 1850px;
 }
 
+#custom-clothing-black {
+  position: absolute;
+  top: 86px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 280px;
+  height: 60px;
+}
+
+#custom-lifestyle-black {
+  position: absolute;
+  top: 136px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 250px;
+  height: 46px;
+}
+
 #company-title {
   position: absolute;
   left: 0;
@@ -72,11 +92,12 @@ a {
   position: absolute;
   left: 0;
   right: 0;
-  top: 180px;
+  top: 190px;
   margin: auto;
   width: 90%;
   height: auto;
   text-align: justify;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   /* border: 1px solid black; */
 }
