@@ -47,7 +47,7 @@ a {
 
 #shortcut-media {
   position: relative;
-  top: 50px;
+  top: 39px;
 }
 
 #shortcut-apparel {
@@ -117,6 +117,29 @@ a {
   cursor: pointer;
 }
 
+#star-img-left-media {
+  position: absolute;
+  left: -81%;
+  right: 0;
+  top: 608px;
+  margin: auto;
+  width: 26px;
+  height: 25px;
+  text-align: center;
+}
+
+#star-bar-left-media {
+  position: absolute;
+  left: -52%;
+  right: 0;
+  top: 639px;
+  margin: auto;
+  width: 31%;
+  height: 2px;
+  text-align: center;
+  background-color: black;
+}
+
 #media-title {
   position: absolute;
   left: 0;
@@ -127,6 +150,29 @@ a {
   height: auto;
   text-align: center;
   /* border: 1px solid black; */
+}
+
+#star-img-right-media {
+  position: absolute;
+  left: 81%;
+  right: 0;
+  top: 608px;
+  margin: auto;
+  width: 26px;
+  height: 25px;
+  text-align: center;
+}
+
+#star-bar-right-media {
+  position: absolute;
+  left: 52%;
+  right: 0;
+  top: 639px;
+  margin: auto;
+  width: 31%;
+  height: 2px;
+  text-align: center;
+  background-color: black;
 }
 
 #video-container {
@@ -149,7 +195,7 @@ a {
 
 #apparel-header {
   position: relative;
-  top: 0px;
+  top: 84px;
 }
 
 #star-img-left-apparel {
