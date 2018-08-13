@@ -8,7 +8,7 @@
 
 body {
   height: 1750px;
-  background-color: #FDFDFD;
+  background-color: rgba(0,0,0, 0.1);
 }
 
 a {
@@ -20,12 +20,10 @@ a {
   left: 0;
   right: 0;
   margin: auto;
-  /* margin-top: 12px; */
   width: auto;
   height: 80px;
   text-align: center;
   background-color: black;
-  /* border: 1px solid black; */
   z-index: 1;
 }
 
@@ -142,6 +140,53 @@ a {
 #video {
   width: 100%;
   height: 100%;
+}
+
+#star-img-left-apparel {
+  position: absolute;
+  left: -81%;
+  right: 0;
+  top: 1168px;
+  margin: auto;
+  width: 26px;
+  height: 25px;
+  text-align: center;
+}
+
+#star-bar-left-apparel {
+  position: absolute;
+  left: -48%;
+  right: 0;
+  top: 1199px;
+  margin: auto;
+  width: 35%;
+  height: 2px;
+  text-align: center;
+  background-color: black;
+}
+
+#star-bar-right-apparel {
+  position: absolute;
+  left: 48%;
+  right: 0;
+  top: 1199px;
+  margin: auto;
+  width: 35%;
+  height: 2px;
+  text-align: center;
+  background-color: black;
+}
+
+
+#star-img-right-apparel {
+  position: absolute;
+  left: 81%;
+  right: 0;
+  top: 1168px;
+  margin: auto;
+  width: 26px;
+  height: 25px;
+  text-align: center;
 }
 
 #apparel-title {
