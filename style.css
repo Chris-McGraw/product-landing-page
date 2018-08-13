@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 1750px;
+  height: 1850px;
   background-color: rgba(0,0,0, 0.1);
 }
 
@@ -47,7 +47,12 @@ a {
 
 #shortcut-media {
   position: relative;
-  top: 10px;
+  top: 50px;
+}
+
+#shortcut-apparel {
+  position: absolute;
+  top: 1850px;
 }
 
 #company-title {
@@ -116,7 +121,7 @@ a {
   position: absolute;
   left: 0;
   right: 0;
-  top: 520px;
+  top: 620px;
   margin: auto;
   width: 80%;
   height: auto;
@@ -128,7 +133,7 @@ a {
   position: absolute;
   left: 0;
   right: 0;
-  top: 620px;
+  top: 680px;
   margin: auto;
   width: 80%;
   height: 500px;
@@ -140,6 +145,11 @@ a {
 #video {
   width: 100%;
   height: 100%;
+}
+
+#apparel-header {
+  position: relative;
+  top: 0px;
 }
 
 #star-img-left-apparel {
@@ -165,30 +175,6 @@ a {
   background-color: black;
 }
 
-#star-bar-right-apparel {
-  position: absolute;
-  left: 48%;
-  right: 0;
-  top: 1199px;
-  margin: auto;
-  width: 35%;
-  height: 2px;
-  text-align: center;
-  background-color: black;
-}
-
-
-#star-img-right-apparel {
-  position: absolute;
-  left: 81%;
-  right: 0;
-  top: 1168px;
-  margin: auto;
-  width: 26px;
-  height: 25px;
-  text-align: center;
-}
-
 #apparel-title {
   position: absolute;
   left: 0;
@@ -201,11 +187,34 @@ a {
   /* border: 1px solid black; */
 }
 
+#star-img-right-apparel {
+  position: absolute;
+  left: 81%;
+  right: 0;
+  top: 1168px;
+  margin: auto;
+  width: 26px;
+  height: 25px;
+  text-align: center;
+}
+
+#star-bar-right-apparel {
+  position: absolute;
+  left: 48%;
+  right: 0;
+  top: 1199px;
+  margin: auto;
+  width: 35%;
+  height: 2px;
+  text-align: center;
+  background-color: black;
+}
+
 #product-1-container {
   position: absolute;
   left: -650px;
   right: 0;
-  top: 1255px;
+  top: 1350px;
   margin: auto;
   width: 250px;
   height: 250px;
@@ -223,7 +232,7 @@ a {
   position: absolute;
   left: -650px;
   right: 0;
-  top: 1525px;
+  top: 1620px;
   margin: auto;
   width: 250px;
   height: 50px;
@@ -255,7 +264,7 @@ a {
   position: absolute;
   left: 0px;
   right: 0;
-  top: 1255px;
+  top: 1350px;
   margin: auto;
   width: 250px;
   height: 250px;
@@ -268,7 +277,7 @@ a {
   position: absolute;
   left: 0px;
   right: 0;
-  top: 1525px;
+  top: 1620px;
   margin: auto;
   width: 250px;
   height: 50px;
@@ -300,7 +309,7 @@ a {
   position: absolute;
   left: 650px;
   right: 0;
-  top: 1255px;
+  top: 1350px;
   margin: auto;
   width: 250px;
   height: 250px;
@@ -313,7 +322,7 @@ a {
   position: absolute;
   left: 650px;
   right: 0;
-  top: 1525px;
+  top: 1620px;
   margin: auto;
   width: 250px;
   height: 50px;
@@ -346,11 +355,11 @@ a {
 
 #footer {
   position: absolute;
-  top: 1650px;
+  top: 1720px;
   left: 0;
   right: 0;
   width: auto;
-  height: 100px;
+  height: 101px;
   margin: auto;
   margin-top: 30px;
   padding-top: 15px;
