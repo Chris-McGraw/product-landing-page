@@ -55,6 +55,26 @@ a {
   top: 1850px;
 }
 
+#custom-clothing-black {
+  position: absolute;
+  top: 86px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 280px;
+  height: 60px;
+}
+
+#custom-lifestyle-black {
+  position: absolute;
+  top: 136px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 250px;
+  height: 46px;
+}
+
 #company-title {
   position: absolute;
   left: 0;
@@ -72,11 +92,12 @@ a {
   position: absolute;
   left: 0;
   right: 0;
-  top: 180px;
+  top: 190px;
   margin: auto;
   width: 90%;
   height: auto;
   text-align: justify;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   /* border: 1px solid black; */
 }
@@ -117,6 +138,16 @@ a {
   cursor: pointer;
 }
 
+#our-process-black {
+  position: absolute;
+  top: 612px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 200px;
+  height: 39px;
+}
+
 #star-img-left-media {
   position: absolute;
   left: -81%;
@@ -130,11 +161,11 @@ a {
 
 #star-bar-left-media {
   position: absolute;
-  left: -52%;
+  left: -50%;
   right: 0;
   top: 639px;
   margin: auto;
-  width: 31%;
+  width: 33%;
   height: 2px;
   text-align: center;
   background-color: black;
@@ -165,11 +196,11 @@ a {
 
 #star-bar-right-media {
   position: absolute;
-  left: 52%;
+  left: 50%;
   right: 0;
   top: 639px;
   margin: auto;
-  width: 31%;
+  width: 33%;
   height: 2px;
   text-align: center;
   background-color: black;
@@ -196,6 +227,16 @@ a {
 #apparel-header {
   position: relative;
   top: 84px;
+}
+
+#apparel-black {
+  position: absolute;
+  top: 1174px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 130px;
+  height: 55px;
 }
 
 #star-img-left-apparel {
