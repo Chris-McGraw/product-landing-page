@@ -47,7 +47,7 @@ a {
 
 #shortcut-media {
   position: relative;
-  top: 39px;
+  top: 38px;
 }
 
 #shortcut-apparel {
@@ -140,7 +140,7 @@ a {
 
 #our-process-black {
   position: absolute;
-  top: 612px;
+  top: 614px;
   left: 0;
   right: 0;
   margin: auto;
@@ -215,7 +215,6 @@ a {
   width: 80%;
   height: 500px;
   text-align: center;
-
   /* border: 1px solid black; */
 }
 
@@ -235,8 +234,8 @@ a {
   left: 0;
   right: 0;
   margin: auto;
-  width: 130px;
-  height: 55px;
+  width: 126px;
+  height: 53px;
 }
 
 #star-img-left-apparel {
@@ -312,6 +311,7 @@ a {
 
 .product-title {
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
   font-weight: bold;
 }
 
