@@ -493,3 +493,22 @@ a {
   margin-bottom: 15px;
   text-align: center;
 }
+
+/* ----- MEDIA QUERIES ----- */
+@media screen and (max-width: 1210px) {
+  /* body {
+    background-color: red;
+  } */
+  #form {
+    top: 500px;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  /* body {
+    background-color: blue;
+  } */
+  #form {
+    top: 540px;
+  }
+}
