@@ -510,6 +510,22 @@ a {
   #media-header {
     top: 30px;
   }
+
+  #star-img-left-media {
+    left: -81%;
+  }
+  #star-bar-left-media {
+    left: -53%;
+    width: 30%;
+  }
+  #star-img-right-media {
+    left: 81%;
+  }
+  #star-bar-right-media {
+    left: 53%;
+    width: 30%;
+  }
+
   #video-container {
     top: 710px;
   }
