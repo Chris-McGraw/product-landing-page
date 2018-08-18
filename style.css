@@ -75,19 +75,6 @@ a {
   height: 46px;
 }
 
-#company-title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100px;
-  margin: auto;
-  width: 80%;
-  height: auto;
-  text-align: center;
-
-  /* border: 1px solid black; */
-}
-
 .about-text {
   position: absolute;
   left: 0;
@@ -174,18 +161,6 @@ a {
 #media-header {
   position: relative;
   top: 0px;
-}
-
-#media-title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 620px;
-  margin: auto;
-  width: 80%;
-  height: auto;
-  text-align: center;
-  /* border: 1px solid black; */
 }
 
 #star-img-right-media {
