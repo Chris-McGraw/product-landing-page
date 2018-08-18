@@ -171,6 +171,11 @@ a {
   background-color: black;
 }
 
+#media-header {
+  position: relative;
+  top: 0px;
+}
+
 #media-title {
   position: absolute;
   left: 0;
@@ -501,6 +506,12 @@ a {
   } */
   #form {
     top: 500px;
+  }
+  #media-header {
+    top: 30px;
+  }
+  #video-container {
+    top: 710px;
   }
 }
 
