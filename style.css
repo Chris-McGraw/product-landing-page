@@ -9,6 +9,7 @@
 body {
   height: 1850px;
   background-color: rgba(0,0,0, 0.1);
+  overflow-x: hidden;
 }
 
 a {
@@ -73,19 +74,6 @@ a {
   margin: auto;
   width: 250px;
   height: 46px;
-}
-
-#company-title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100px;
-  margin: auto;
-  width: 80%;
-  height: auto;
-  text-align: center;
-
-  /* border: 1px solid black; */
 }
 
 .about-text {
@@ -176,18 +164,6 @@ a {
   top: 0px;
 }
 
-#media-title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 620px;
-  margin: auto;
-  width: 80%;
-  height: auto;
-  text-align: center;
-  /* border: 1px solid black; */
-}
-
 #star-img-right-media {
   position: absolute;
   left: 81%;
@@ -264,18 +240,6 @@ a {
   height: 2px;
   text-align: center;
   background-color: black;
-}
-
-#apparel-title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 1180px;
-  margin: auto;
-  width: 80%;
-  height: auto;
-  text-align: center;
-  /* border: 1px solid black; */
 }
 
 #star-img-right-apparel {
@@ -501,25 +465,91 @@ a {
 
 /* ----- MEDIA QUERIES ----- */
 @media screen and (max-width: 1210px) {
-  /* body {
-    background-color: red;
-  } */
+  body {
+    height: 1881px;
+    /* background-color: red; */
+  }
+
+  #shortcut-apparel {
+    top: 1182px;
+  }
+
   #form {
     top: 500px;
   }
+
   #media-header {
     top: 30px;
   }
+
+  #star-img-left-media {
+    left: -81%;
+  }
+  #star-bar-left-media {
+    left: -53%;
+    width: 30%;
+  }
+  #star-img-right-media {
+    left: 81%;
+  }
+  #star-bar-right-media {
+    left: 53%;
+    width: 30%;
+  }
+
   #video-container {
     top: 710px;
   }
+
+  #apparel-header {
+    position: relative;
+    top: 114px;
+  }
+
+  #star-img-left-apparel {
+    left: -81%;
+  }
+  #star-bar-left-apparel {
+    left: -50%;
+    width: 33%;
+  }
+  #star-img-right-apparel {
+    left: 81%;
+  }
+  #star-bar-right-apparel {
+    left: 50%;
+    width: 33%;
+  }
+
+  #product-1-container {
+    top: 1380px;
+  }
+  #product-2-container {
+    top: 1380px;
+  }
+  #product-3-container {
+    top: 1380px;
+  }
+  #product-1-title {
+    top: 1650px;
+  }
+  #product-2-title {
+    top: 1650px;
+  }
+  #product-3-title {
+    top: 1650px;
+  }
+
+  #footer {
+    top: 1750px;
+  }
 }
 
-@media screen and (max-width: 965px) {
-  /* body {
+/* @media screen and (max-width: 965px) {
+  body {
     background-color: blue;
-  } */
+  }
   #form {
     top: 540px;
   }
-}
+} */
