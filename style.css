@@ -294,8 +294,6 @@ a {
   height: 50px;
   text-align: center;
   cursor: pointer;
-
-  /* border: 1px solid black; */
 }
 
 #male-model {
@@ -307,13 +305,8 @@ a {
   width: 315px;
   height: 210px;
   cursor: pointer;
-
+  pointer-events: none;
   transition: all .4s ease-in-out;
-}
-
-#male-model:hover {
-  transform: scale(1.5);
-  bottom: 53px;
 }
 
 #product-2-container {
@@ -339,8 +332,6 @@ a {
   height: 50px;
   text-align: center;
   cursor: pointer;
-
-  /* border: 1px solid black; */
 }
 
 #female-model-2 {
@@ -352,13 +343,8 @@ a {
   width: 315px;
   height: 210px;
   cursor: pointer;
-
+  pointer-events: none;
   transition: all .4s ease-in-out;
-}
-
-#female-model-2:hover {
-  transform: scale(1.5);
-  bottom: 53px;
 }
 
 #product-3-container {
@@ -384,8 +370,6 @@ a {
   height: 50px;
   text-align: center;
   cursor: pointer;
-
-  /* border: 1px solid black; */
 }
 
 #female-model {
@@ -397,13 +381,8 @@ a {
   width: 315px;
   height: 210px;
   cursor: pointer;
-
+  pointer-events: none;
   transition: all .4s ease-in-out;
-}
-
-#female-model:hover {
-  transform: scale(1.5);
-  bottom: 53px;
 }
 
 
@@ -545,11 +524,11 @@ a {
   }
 }
 
-/* @media screen and (max-width: 965px) {
+@media screen and (max-width: 965px) {
   body {
     background-color: blue;
   }
-  #form {
+  /* #form {
     top: 540px;
-  }
-} */
+  } */
+}
