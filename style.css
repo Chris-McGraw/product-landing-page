@@ -119,7 +119,8 @@ a {
   width: 160px;
   height: 34px;
   color: white;
-  background-color: black;
+  background: black;
+  background: linear-gradient(#646464, #000000);
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   border-radius: 10px;
@@ -279,21 +280,26 @@ a {
 }
 
 .product-title {
+  top: 1620px;
+  margin: auto;
+  width: 150px;
+  height: 30px;
+  padding-top: 5px;
+  background: black;
+  background: linear-gradient(#646464, #000000);
+  color: white;
+  text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 #product-1-title {
   position: absolute;
   left: -650px;
   right: 0;
-  top: 1620px;
-  margin: auto;
-  width: 250px;
-  height: 50px;
-  text-align: center;
-  cursor: pointer;
 }
 
 #male-model {
@@ -324,14 +330,8 @@ a {
 
 #product-2-title {
   position: absolute;
-  left: 0px;
+  left: 0;
   right: 0;
-  top: 1620px;
-  margin: auto;
-  width: 250px;
-  height: 50px;
-  text-align: center;
-  cursor: pointer;
 }
 
 #female-model-2 {
@@ -364,12 +364,6 @@ a {
   position: absolute;
   left: 650px;
   right: 0;
-  top: 1620px;
-  margin: auto;
-  width: 250px;
-  height: 50px;
-  text-align: center;
-  cursor: pointer;
 }
 
 #female-model {
