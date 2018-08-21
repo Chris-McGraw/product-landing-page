@@ -45,6 +45,9 @@ a {
   font-weight: bold;
   cursor: pointer;
 }
+.nav-link:hover {
+  color: white;
+}
 
 #shortcut-media {
   position: relative;
