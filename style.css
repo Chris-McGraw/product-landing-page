@@ -45,8 +45,9 @@ a {
   font-weight: bold;
   cursor: pointer;
 }
+
 .nav-link:hover {
-  color: white;
+  opacity: 0.75;
 }
 
 #shortcut-media {
@@ -285,16 +286,15 @@ a {
 .product-title {
   top: 1620px;
   margin: auto;
-  width: 150px;
-  height: 30px;
-  padding-top: 5px;
+  width: 160px;
+  height: 34px;
+  padding-top: 7px;
   background: black;
   background: linear-gradient(#646464, #000000);
   color: white;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: bold;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -405,11 +405,7 @@ a {
   cursor: pointer;
 }
 
-.footer-icon-hovered {
-  opacity: 0.75;
-}
-
-.footer-icon:active{
+.footer-icon:hover {
   opacity: 0.75;
 }
 
