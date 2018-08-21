@@ -131,6 +131,11 @@ a {
   cursor: pointer;
 }
 
+#submit:hover {
+  /* color: rgba(255, 255, 255, 0.75); */
+  opacity: 0.75;
+}
+
 #our-process-black {
   position: absolute;
   top: 614px;
@@ -297,6 +302,11 @@ a {
   font-size: 16px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.product-title:hover {
+  /* color: rgba(255, 255, 255, 0.75); */
+  opacity: 0.75;
 }
 
 #product-1-title {
