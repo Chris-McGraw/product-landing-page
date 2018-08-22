@@ -132,8 +132,15 @@ a {
 }
 
 #submit:hover {
-  /* color: rgba(255, 255, 255, 0.75); */
   opacity: 0.75;
+}
+
+#submit:active {
+  box-shadow: inset 0px 0px 30px black;
+}
+
+#submit:focus {
+  outline: none;
 }
 
 #our-process-black {
@@ -305,8 +312,11 @@ a {
 }
 
 .product-title:hover {
-  /* color: rgba(255, 255, 255, 0.75); */
   opacity: 0.75;
+}
+
+.product-title:active {
+  box-shadow: inset 0px 0px 30px black;
 }
 
 #product-1-title {
