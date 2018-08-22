@@ -348,10 +348,8 @@ a {
   right: 0;
 }
 
-#male-model {
+.model-img {
   position: absolute;
-  left: -54px;
-  right: 0;
   bottom: 0;
   margin: auto;
   width: 315px;
@@ -359,34 +357,22 @@ a {
   cursor: pointer;
   pointer-events: none;
   transition: all .4s ease-in-out;
+}
+
+#male-model {
+  left: -54px;
+  right: 0;
 }
 
 #female-model-2 {
-  position: absolute;
   left: -34px;
   right: 0;
-  bottom: 0;
-  margin: auto;
-  width: 315px;
-  height: 210px;
-  cursor: pointer;
-  pointer-events: none;
-  transition: all .4s ease-in-out;
 }
 
 #female-model {
-  position: absolute;
   left: -4px;
   right: 0;
-  bottom: 0;
-  margin: auto;
-  width: 315px;
-  height: 210px;
-  cursor: pointer;
-  pointer-events: none;
-  transition: all .4s ease-in-out;
 }
-
 
 /* ----- FOOTER BEGINS BELOW ----- */
 #footer {
