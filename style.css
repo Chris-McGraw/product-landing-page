@@ -474,11 +474,16 @@ a {
   }
 }
 
-@media screen and (max-width: 965px) {
+@media screen and (max-width: 962px) {
   body {
     background-color: blue;
   }
-  /* #form {
-    top: 540px;
-  } */
+  #form {
+    top: 550px;
+  }
+
+  @media screen and (max-width: 848px) {
+    body {
+      background-color: yellow;
+    }
 }
