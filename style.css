@@ -442,6 +442,9 @@ a {
     height: 1881px;
     /* background-color: red; */
   }
+  .nav-link {
+    right: -39%;
+  }
   #shortcut-apparel {
     top: 1182px;
   }
@@ -561,5 +564,17 @@ a {
 @media screen and (max-width: 848px) {
   body {
     background-color: yellow;
+  }
+  .nav-link {
+    right: -35%;
+  }
+  #form {
+    top: 615px;
+  }
+}
+
+@media screen and (max-width: 704px) {
+  body {
+    background-color: green;
   }
 }
