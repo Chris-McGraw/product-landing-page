@@ -103,6 +103,7 @@ a {
   width: 80%;
   height: auto;
   text-align: center;
+
   /* border: 1px solid black; */
 }
 
@@ -628,5 +629,25 @@ a {
 @media screen and (max-width: 704px) {
   body {
     background-color: green;
+  }
+  .nav-link {
+    right: -34%;
+  }
+  #form {
+    top: 720px;
+  }
+
+  #media-header {
+    top: 245px;
+  }
+
+  #video-container {
+    top: 925px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  body {
+    background-color: blue;
   }
 }
