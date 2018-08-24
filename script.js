@@ -13,53 +13,53 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   productContainer1.onmouseenter = function() {
     maleModel.style.transform = "scale(1.5)";
-    maleModel.style.bottom = "53px";
+    maleModel.style.marginTop = "-13px";
   };
   productContainer1.onmouseleave = function() {
     maleModel.style.transform = "scale(1.0)";
-    maleModel.style.bottom = "0";
+    maleModel.style.marginTop = "40px";
   };
   productTitle1.onmouseenter = function() {
     maleModel.style.transform = "scale(1.5)";
-    maleModel.style.bottom = "53px";
+    maleModel.style.marginTop = "-13px";
   };
   productTitle1.onmouseleave = function() {
     maleModel.style.transform = "scale(1.0)";
-    maleModel.style.bottom = "0";
+    maleModel.style.marginTop = "40px";
   };
 
   productContainer2.onmouseenter = function() {
     femaleModel2.style.transform = "scale(1.5)";
-    femaleModel2.style.bottom = "53px";
+    femaleModel2.style.marginTop = "-13px";
   };
   productContainer2.onmouseleave = function() {
     femaleModel2.style.transform = "scale(1.0)";
-    femaleModel2.style.bottom = "0";
+    femaleModel2.style.marginTop = "40px";
   };
   productTitle2.onmouseenter = function() {
     femaleModel2.style.transform = "scale(1.5)";
-    femaleModel2.style.bottom = "53px";
+    femaleModel2.style.marginTop = "-13px";
   };
   productTitle2.onmouseleave = function() {
     femaleModel2.style.transform = "scale(1.0)";
-    femaleModel2.style.bottom = "0";
+    femaleModel2.style.marginTop = "40px";
   };
 
   productContainer3.onmouseenter = function() {
     femaleModel.style.transform = "scale(1.5)";
-    femaleModel.style.bottom = "53px";
+    femaleModel.style.marginTop = "-13px";
   };
   productContainer3.onmouseleave = function() {
     femaleModel.style.transform = "scale(1.0)";
-    femaleModel.style.bottom = "0";
+    femaleModel.style.marginTop = "40px";
   };
   productTitle3.onmouseenter = function() {
     femaleModel.style.transform = "scale(1.5)";
-    femaleModel.style.bottom = "53px";
+    femaleModel.style.marginTop = "-13px";
   };
   productTitle3.onmouseleave = function() {
     femaleModel.style.transform = "scale(1.0)";
-    femaleModel.style.bottom = "0";
+    femaleModel.style.marginTop = "40px";
   };
 
 });
