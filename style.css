@@ -115,6 +115,7 @@ a {
   height: 40px;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+  cursor: text;
 }
 
 #submit {
@@ -689,6 +690,70 @@ a {
 
 @media screen and (max-width: 570px) {
   body {
-    background-color: blue;
+    /* background-color: blue; */
+  }
+  .nav-link {
+    right: -28%;
+  }
+  #shortcut-apparel {
+    top: 1489px;
+  }
+  #form {
+    top: 810px;
+    width: 420px;
+  }
+  #email {
+    width: 380px;
+  }
+
+  #media-header {
+    top: 335px;
+  }
+  #star-bar-left-media {
+    left: -64%;
+    width: 19%;
+  }
+  #star-bar-right-media {
+    left: 64%;
+    width: 19%;
+  }
+  #video-container {
+    top: 1015px;
+  }
+
+  #apparel-header {
+    top: 419px;
+  }
+  #star-bar-left-apparel {
+    left: -56%;
+    width: 27%;
+  }
+  #star-bar-right-apparel {
+    left: 56%;
+    width: 27%;
+  }
+
+  #product-flex-container {
+    top: 1695px;
+    width: 100%;
+    height: 1065px;
+    flex-direction: column;
+  }
+
+  #product-title-flex-container {
+    top: 1915px;
+    width: 200px;
+    height: 805px;
+    flex-direction: column;
+  }
+
+  #footer {
+    top: 2815px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  body {
+    background-color: red;
   }
 }
