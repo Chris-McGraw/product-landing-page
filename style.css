@@ -36,7 +36,7 @@ a {
 
 .nav-link {
   position: relative;
-  top: 55px;
+  top: 48px;
   right: -40%;
   margin-right: 10px;
   color: #fcf798;
@@ -438,6 +438,19 @@ a {
   text-align: center;
 }
 
+#dropdown-container {
+  display: none;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 30px;
+  margin: auto;
+  background-color: black;
+  z-index: 10;
+}
+
 /* -------------------- MEDIA QUERIES -------------------- */
 @media screen and (max-width: 1210px) {
   body {
@@ -754,6 +767,81 @@ a {
 
 @media screen and (max-width: 470px) {
   body {
-    background-color: red;
+    /* background-color: red; */
+  }
+  #header-img {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  #dropdown-container {
+    display: block;
+  }
+  .nav-link {
+    top: 80px;
+    right: 0;
+    z-index: 20;
+  }
+  #shortcut-media {
+    top: 5px;
+  }
+  #shortcut-apparel {
+    top: 1579px;
+  }
+
+  #custom-clothing-black {
+    top: 116px;
+  }
+  #custom-lifestyle-black {
+    top: 166px;
+  }
+
+  .about-text {
+    top: 220px;
+  }
+
+  #form {
+    top: 930px;
+    width: 370px;
+  }
+  #email {
+    width: 350px;
+  }
+
+  #media-header {
+    top: 455px;
+  }
+  #star-bar-left-media {
+    left: -68%;
+    width: 15%;
+  }
+  #star-bar-right-media {
+    left: 68%;
+    width: 15%;
+  }
+  #video-container {
+    top: 1135px;
+  }
+
+  #apparel-header {
+    top: 539px;
+  }
+  #star-bar-left-apparel {
+    left: -59%;
+    width: 24%;
+  }
+  #star-bar-right-apparel {
+    left: 59%;
+    width: 24%;
+  }
+  #product-flex-container {
+    top: 1815px;
+  }
+  #product-title-flex-container {
+    top: 2035px;
+  }
+
+  #footer {
+    top: 2935px;
   }
 }
