@@ -438,6 +438,19 @@ a {
   text-align: center;
 }
 
+#dropdown-container {
+  display: none;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 30px;
+  margin: auto;
+  background-color: black;
+  z-index: 10;
+}
+
 /* -------------------- MEDIA QUERIES -------------------- */
 @media screen and (max-width: 1210px) {
   body {
@@ -755,5 +768,63 @@ a {
 @media screen and (max-width: 470px) {
   body {
     background-color: red;
+  }
+  #header-img {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  #dropdown-container {
+    display: block;
+  }
+
+  .nav-link {
+    top: 80px;
+    right: 0;
+    z-index: 20;
+  }
+  #shortcut-media {
+    top: 5px;
+  }
+
+  #custom-clothing-black {
+    top: 116px;
+  }
+  #custom-lifestyle-black {
+    top: 166px;
+  }
+
+  .about-text {
+    top: 220px;
+  }
+
+  #form {
+    top: 840px;
+    width: 370px;
+  }
+  #email {
+    width: 350px;
+  }
+
+  #media-header {
+    top: 365px;
+  }
+  #video-container {
+    top: 1045px;
+  }
+
+  #apparel-header {
+    top: 449px;
+  }
+  #product-flex-container {
+    top: 1725px;
+  }
+  #product-title-flex-container {
+    top: 1945px;
+  }
+
+  #footer {
+    top: 2845px;
   }
 }
