@@ -767,18 +767,16 @@ a {
 
 @media screen and (max-width: 470px) {
   body {
-    background-color: red;
+    /* background-color: red; */
   }
   #header-img {
     left: 0;
     right: 0;
     margin: auto;
   }
-
   #dropdown-container {
     display: block;
   }
-
   .nav-link {
     top: 80px;
     right: 0;
@@ -786,6 +784,9 @@ a {
   }
   #shortcut-media {
     top: 5px;
+  }
+  #shortcut-apparel {
+    top: 1579px;
   }
 
   #custom-clothing-black {
@@ -800,7 +801,7 @@ a {
   }
 
   #form {
-    top: 840px;
+    top: 930px;
     width: 370px;
   }
   #email {
@@ -808,23 +809,39 @@ a {
   }
 
   #media-header {
-    top: 365px;
+    top: 455px;
+  }
+  #star-bar-left-media {
+    left: -68%;
+    width: 15%;
+  }
+  #star-bar-right-media {
+    left: 68%;
+    width: 15%;
   }
   #video-container {
-    top: 1045px;
+    top: 1135px;
   }
 
   #apparel-header {
-    top: 449px;
+    top: 539px;
+  }
+  #star-bar-left-apparel {
+    left: -59%;
+    width: 24%;
+  }
+  #star-bar-right-apparel {
+    left: 59%;
+    width: 24%;
   }
   #product-flex-container {
-    top: 1725px;
+    top: 1815px;
   }
   #product-title-flex-container {
-    top: 1945px;
+    top: 2035px;
   }
 
   #footer {
-    top: 2845px;
+    top: 2935px;
   }
 }
