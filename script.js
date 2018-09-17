@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
+  var ccLogo = document.getElementById("cc-logo");
+
   var productContainer1 = document.getElementById("product-1-container");
   var maleModel = document.getElementById("male-model");
   var productTitle1 = document.getElementById("product-1-title");
@@ -10,6 +12,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var productContainer3 = document.getElementById("product-3-container");
   var femaleModel = document.getElementById("female-model");
   var productTitle3 = document.getElementById("product-3-title");
+
+
+  setTimeout(function() {
+    ccLogo.classList.add("fade-in");
+  }, 3800);
 
   productContainer1.onmouseenter = function() {
     maleModel.style.transform = "scale(1.5)";
