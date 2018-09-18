@@ -20,19 +20,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   productContainer1.onmouseenter = function() {
     maleModel.style.transform = "scale(1.5)";
-    maleModel.style.marginTop = "-13px";
+    maleModel.style.marginTop = "-10px";
   };
   productContainer1.onmouseleave = function() {
     maleModel.style.transform = "scale(1.0)";
-    maleModel.style.marginTop = "40px";
+    maleModel.style.marginTop = "42px";
   };
   productTitle1.onmouseenter = function() {
     maleModel.style.transform = "scale(1.5)";
-    maleModel.style.marginTop = "-13px";
+    maleModel.style.marginTop = "-10px";
   };
   productTitle1.onmouseleave = function() {
     maleModel.style.transform = "scale(1.0)";
-    maleModel.style.marginTop = "40px";
+    maleModel.style.marginTop = "42px";
   };
 
   productContainer2.onmouseenter = function() {
