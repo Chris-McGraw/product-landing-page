@@ -460,8 +460,11 @@ a {
 }
 
 #female-model {
-  margin-top: 40px;
-  margin-left: -4px;
+  width: 128px;
+  height: 207px;
+
+  margin-top: 42px;
+  margin-left: 70px;
 }
 
 /* ----- FOOTER BEGINS BELOW ----- */
