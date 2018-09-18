@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var productTitle1 = document.getElementById("product-1-title");
 
   var productContainer2 = document.getElementById("product-2-container");
-  var femaleModel2 = document.getElementById("female-model-2");
+  var customModel = document.getElementById("custom-model");
   var productTitle2 = document.getElementById("product-2-title");
 
   var productContainer3 = document.getElementById("product-3-container");
@@ -36,20 +36,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
   };
 
   productContainer2.onmouseenter = function() {
-    femaleModel2.style.transform = "scale(1.5)";
-    femaleModel2.style.marginTop = "-13px";
+    customModel.style.transform = "scale(1.5)";
+    customModel.style.marginTop = "-10px";
   };
   productContainer2.onmouseleave = function() {
-    femaleModel2.style.transform = "scale(1.0)";
-    femaleModel2.style.marginTop = "40px";
+    customModel.style.transform = "scale(1.0)";
+    customModel.style.marginTop = "42px";
   };
   productTitle2.onmouseenter = function() {
-    femaleModel2.style.transform = "scale(1.5)";
-    femaleModel2.style.marginTop = "-13px";
+    customModel.style.transform = "scale(1.5)";
+    customModel.style.marginTop = "-10px";
   };
   productTitle2.onmouseleave = function() {
-    femaleModel2.style.transform = "scale(1.0)";
-    femaleModel2.style.marginTop = "40px";
+    customModel.style.transform = "scale(1.0)";
+    customModel.style.marginTop = "42px";
   };
 
   productContainer3.onmouseenter = function() {

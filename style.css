@@ -454,9 +454,12 @@ a {
   margin-left: -54px;
 }
 
-#female-model-2 {
-  margin-top: 40px;
-  margin-left: -34px;
+#custom-model {
+  width: 128px;
+  height: 207px;
+
+  margin-top: 42px;
+  margin-left: 70px;
 }
 
 #female-model {
