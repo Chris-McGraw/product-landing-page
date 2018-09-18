@@ -923,3 +923,15 @@ a {
     top: 2935px;
   }
 }
+
+@media screen and (max-width: 376px) {
+  #shortcut-media {
+    top: -15px;
+  }
+
+  #form {
+    top: 950px;
+
+    width: 360px;
+  }
+}
