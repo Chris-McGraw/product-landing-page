@@ -925,14 +925,14 @@ a {
   }
 }
 
-/* @media screen and (max-width: 376px) {
+@media screen and (max-width: 376px) {
   #shortcut-media {
-    top: -15px;
+    top: -23px;
   }
 
   #form {
-    top: 950px;
+    top: 958px;
 
     width: 360px;
   }
-} */
+}
